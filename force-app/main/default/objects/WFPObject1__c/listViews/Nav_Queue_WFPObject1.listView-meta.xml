@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nav_Queue_WFPObject1</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Nav Queue</label>
+    <queue>Nav_Queue</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

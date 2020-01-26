@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Book_Subject__c</fullName>
+    <externalId>false</externalId>
+    <label>Book Subject</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MATH</fullName>
+                <default>false</default>
+                <label>MATH</label>
+            </value>
+            <value>
+                <fullName>PHYSICS</fullName>
+                <default>false</default>
+                <label>PHYSICS</label>
+            </value>
+            <value>
+                <fullName>CHEMISTRY</fullName>
+                <default>false</default>
+                <label>CHEMISTRY</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

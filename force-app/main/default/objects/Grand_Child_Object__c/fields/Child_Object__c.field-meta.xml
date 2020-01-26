@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Child_Object__c</fullName>
+    <externalId>false</externalId>
+    <label>Child Object</label>
+    <referenceTo>Child_Objects__c</referenceTo>
+    <relationshipLabel>Grand Child Objects</relationshipLabel>
+    <relationshipName>Grand_Child_Objects</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
